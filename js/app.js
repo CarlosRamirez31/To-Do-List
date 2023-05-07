@@ -2,6 +2,8 @@ const fecha = document.getElementById("fecha");
 const input = document.getElementById("texto");
 const botonEnter = document.getElementById("enter");
 const lista = document.getElementById("lista");
+const uncheck = "bi bi-circle";
+const check = "bi bi-check2-circle";
 
 
 function agregarTarea(texto){
@@ -16,6 +18,7 @@ function agregarTarea(texto){
 
 function agregarTexto(){
     const tarea = input.value;
+    console.log(tarea);
 
     if(tarea)
         agregarTarea(tarea);
@@ -23,7 +26,7 @@ function agregarTexto(){
     input.value = "";
 }
 
-botomEnter.addEventListener("click", agregarTexto);
+botonEnter.addEventListener("click", agregarTexto);
 
 
 document.addEventListener("keyup", function(event){
