@@ -37,6 +37,9 @@ body{
     padding: 15px;
     gap: 12px;
     margin: 20px 0;
+    -webkit-box-shadow: 0px 2px 17px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 17px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 17px -6px rgba(0,0,0,0.75);
 }
 
 .agregarTareas input{
@@ -77,6 +80,9 @@ body{
     border-radius: 20px;
     margin-bottom: 12px;
     color: white;
+    -webkit-box-shadow: 0px 2px 17px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 17px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 17px -6px rgba(0,0,0,0.75);
 }
 
 .tareas i{
